@@ -1,0 +1,49 @@
+
+@import"utilities/variables";
+     
+*{ 
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: space-between;
+    h1{ 
+        color: #8D4F2A;
+        font-size: 50px;
+        font-weight: bolder;
+     }
+     nav{ 
+       ul{ 
+      display: flex;
+      column-gap: 50px;
+    
+      margin-right: 15px;  
+      li{
+      list-style: none;
+      color: $color;
+      font-size: $estilo-grafico;
+     
+       }
+      } 
+   }
+   }
+  .Nosotros2{
+    margin-top: 30px;
+    margin-left: 10px;
+    font-size: $estilo-grafico;
+    color: $color;
+     
+ }
+ .fixed{ 
+    margin-left: 1300px;
+ 
+ 
+  }
+  footer{ 
+   text-align: center;
+   margin-top: 70px;
+ }
+
+   
